@@ -8,8 +8,8 @@ import javax.swing.JOptionPane;
  */
 public class Program {
 
-    static String getNama(String nama) {
-        nama = JOptionPane.showInputDialog("Masukan Nama Siswa");
+    static String getNama() {
+        String nama = JOptionPane.showInputDialog("Masukan Nama Siswa");
         return nama;
     }
 
@@ -18,14 +18,6 @@ public class Program {
         return nilaiAkhir;
     }
 
-//    public double getNilai(double nilai) {
-//        double latihan, kuis, uts, uas;
-//        latihan = Double.parseDouble(JOptionPane.showInputDialog("Masukan Nilai Latihan Mahasiswa"));
-//        kuis = Double.parseDouble(JOptionPane.showInputDialog("Masukan Nilai Kuis Mahasiswa"));
-//        uts = Double.parseDouble(JOptionPane.showInputDialog("Masukan Nilai UTS Mahasiswa"));
-//        uas = Double.parseDouble(JOptionPane.showInputDialog("Masukan Nilai UAS Mahasiswa"));
-//
-//    }
 
     public String grade(double nilaiAkhir) { // Menggunakan parameter int nilai
         String nilaiHuruf;
@@ -42,4 +34,16 @@ public class Program {
         }
         return nilaiHuruf;
     }
+    
+    static String getNamaGr() {
+        String namaGr = JOptionPane.showInputDialog("Masukan Nama Guru");
+        return namaGr;
+    }
+    
+    static String getMapel() {
+        String namaMapel = JOptionPane.showInputDialog("Masukan Mata Pelajaran Yang Diampu");
+        return namaMapel;
+    }
+    
+    
 }

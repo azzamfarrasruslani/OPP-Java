@@ -13,31 +13,18 @@ public class Grade {
     }
     
     
-//    public String nilai (String nilaiHuruf) {
-//        int nilai = 0;
-//        if (nilai >= 81 && nilai <= 100) {
-//            nilaiHuruf = "A";
-//        } else if (nilai >= 76 && nilai <= 80) {
-//            nilaiHuruf = "B";
-//        } else if (nilai >= 66 && nilai <= 75) {
-//            nilaiHuruf = "C";
-//        } else if (nilai >= 51 && nilai <= 65) {
-//            nilaiHuruf = "D";
-//        } else {
-//            nilaiHuruf = "F";
-//        }
-//        return nilaiHuruf;
-//    }
      public String grade  (int nilai) { // Menggunakan parameter int nilai
         String nilaiHuruf;
         if (nilai >= 81 && nilai <= 100) {
             nilaiHuruf = "A";
         } else if (nilai >= 76 && nilai <= 80) {
-            nilaiHuruf = "B";
+            nilaiHuruf = "AB";
         } else if (nilai >= 66 && nilai <= 75) {
+            nilaiHuruf = "B";
+        } else if (nilai >= 61 && nilai <= 65) {
+            nilaiHuruf = "BC";
+        } else if(nilai >= 51 && nilai <= 60){
             nilaiHuruf = "C";
-        } else if (nilai >= 51 && nilai <= 65) {
-            nilaiHuruf = "D";
         } else {
             nilaiHuruf = "F";
         }
