@@ -14,7 +14,7 @@ public class TestGrade {
         int uts = Integer.parseInt(JOptionPane.showInputDialog("Masukan Nilai UTS Mahasiswa"));
         int uas = Integer.parseInt(JOptionPane.showInputDialog("Masukan Nilai UAS Mahasiswa"));
         Grade obj = new Grade();
-        String nilaiHuruf = null;
+        String nilaiHuruf;
         System.out.println("Nilai Latihan : " + latihan + "\nNilai Kuis : " + kuis+
                 "\nNilai UTS : " + uts + "\nNilai UAS : " + uas);
         System.out.println("Total Nilai : " + obj.getNilai(latihan, kuis, uts, uas));

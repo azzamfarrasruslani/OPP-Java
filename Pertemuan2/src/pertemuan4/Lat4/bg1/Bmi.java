@@ -35,7 +35,7 @@ public class Bmi {
     }
 
     public static void main(String[] args) {
-        Bmi orang = new Bmi(70, 1.73);
+        Bmi orang = new Bmi(60, 1.5);
         double bmi = orang.hitBMI();
         String category = orang.kategori();
         System.out.println("BMI: " + bmi);
