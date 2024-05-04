@@ -32,6 +32,7 @@ public class Student {
         System.out.println();
     }
 
+    @Override
     public String toString() {
         return "Id Student : " + id + "\nStudent name : " + name;
     }
