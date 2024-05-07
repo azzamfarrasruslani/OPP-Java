@@ -15,7 +15,7 @@ public class TestPenumpangPesawat {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Masukan jumlah penumpang yang akan diinputkan : ");
-        n = Integer.parseInt(input.nextLine());;
+        n = Integer.parseInt(input.nextLine());
         //        deklarasi
         PenumpangPesawat penumpang[] = new PenumpangPesawat[n];
 
