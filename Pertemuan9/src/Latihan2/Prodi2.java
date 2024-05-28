@@ -18,7 +18,7 @@ public class Prodi2 {
         this.mhs = new Mahasiswa2[jumlahMhs];
     }
 
-     void tambahMahasiswa(Mahasiswa2 mahasiswa, int index) {
+     public void tambahMahasiswa(Mahasiswa2 mahasiswa, int index) {
         if (index >= 0 && index < jumlahMhs) {
             mhs[index] = mahasiswa;
         }

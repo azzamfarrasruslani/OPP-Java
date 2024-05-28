@@ -10,6 +10,7 @@ public class AsosiasiMahasiswaProdi2 {
 
     public static void main(String[] args) {
         String nim, nama;
+        
         //Object Mahasiswa
         Mahasiswa2 mhs[] = new Mahasiswa2[2];
 //        Object Prodi
@@ -20,7 +21,6 @@ public class AsosiasiMahasiswaProdi2 {
             nama = JOptionPane.showInputDialog("Masukan nama mahasiswa ke-" + (i + 1));
             mhs[i] = new Mahasiswa2(nim, nama);
             prodi.tambahMahasiswa(mhs[i], i);
-
         }
 
         System.out.println("*Data Prodi Teknik Telekomunikasi");

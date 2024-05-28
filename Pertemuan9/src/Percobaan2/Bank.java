@@ -34,7 +34,8 @@ public class Bank {
     
 //    public String []getNamaPegawai() {
 //        return namaPegawai;
-//    } ERROR 2
+//    } 
+//    ERROR 2
 
 //    public void setNamaPegawai(String[] namaPegawai) {
 //        if (jmlPegawai <10) {
