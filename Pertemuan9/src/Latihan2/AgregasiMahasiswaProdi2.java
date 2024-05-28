@@ -6,15 +6,15 @@ package Latihan2;
  */
 import javax.swing.JOptionPane;
 
-public class AsosiasiMahasiswaProdi2 {
+public class AgregasiMahasiswaProdi2 {
 
     public static void main(String[] args) {
         String nim, nama;
         
         //Object Mahasiswa
-        Mahasiswa2 mhs[] = new Mahasiswa2[2];
+        Mahasiswa2 mhs[] = new Mahasiswa2[10];
 //        Object Prodi
-        Prodi2 prodi = new Prodi2("TET", "Teknik Telekomunikasi", 2);
+        Prodi2 prodi = new Prodi2("TET", "Teknik Telekomunikasi", 10);
 
         for (int i = 0; i < mhs.length; i++) {
             nim = JOptionPane.showInputDialog("Masukan nim mahasiswa ke-" + (i + 1));
